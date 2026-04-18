@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GYEOL — Hair Mascara</title>
+  <meta name="description" content="GYEOL 헤어 마스카라 — 자연스럽고 우아한 헤어 스타일링을 위한 프리미엄 헤어 마스카라" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@200;300;400;500&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== 네비게이션 ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">GYEOL</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#product">Product</a></li>
+        <li><a href="#detail">Detail</a></li>
+        <li><a href="#story">Story</a></li>
+      </ul>
+      <button class="nav-menu-btn" id="menuBtn" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- 모바일 메뉴 -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#product" class="mobile-link">Product</a>
+      <a href="#detail" class="mobile-link">Detail</a>
+      <a href="#story" class="mobile-link">Story</a>
+    </div>
+  </nav>
+
+  <!-- ===== 히어로 섹션 ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/basic/basic-01.jpg" alt="GYEOL 헤어 마스카라 대표 이미지" class="hero-img active" id="heroImg0" />
+      <img src="images/basic/basic-02.jpg" alt="GYEOL 헤어 마스카라" class="hero-img" id="heroImg1" />
+      <img src="images/basic/basic-03.jpg" alt="GYEOL 헤어 마스카라 스타일" class="hero-img" id="heroImg2" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Premium Hair Mascara</p>
+      <h1 class="hero-title">결<span class="en-title">GYEOL</span></h1>
+      <p class="hero-sub">머리카락 한 올 한 올에 스며드는<br>고요하고 우아한 아름다움</p>
+      <a href="#product" class="hero-cta" id="heroCta">제품 보기</a>
+    </div>
+    <div class="hero-dots">
+      <button class="dot active" id="dot0" aria-label="슬라이드 1"></button>
+      <button class="dot" id="dot1" aria-label="슬라이드 2"></button>
+      <button class="dot" id="dot2" aria-label="슬라이드 3"></button>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT 섹션 ===== -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <div class="about-text reveal">
+        <p class="section-label">About</p>
+        <h2 class="about-heading">자연에서 영감 받은<br>헤어 마스카라</h2>
+        <p class="about-desc">
+          GYEOL은 '결'이라는 단어에서 태어났습니다.<br>
+          나뭇결, 물결, 머릿결 — 모든 자연의 흐름에는<br>
+          고유한 아름다움이 담겨 있습니다.<br><br>
+          저희의 헤어 마스카라는 그 결을 살리고,<br>
+          더 깊고 풍성하게 표현할 수 있도록 돕습니다.
+        </p>
+      </div>
+      <div class="about-image reveal">
+        <img src="images/basic/basic-04.jpg" alt="GYEOL 제품 소개" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCT 섹션 ===== -->
+  <section class="product" id="product">
+    <div class="product-header reveal">
+      <p class="section-label light">Product</p>
+      <h2 class="product-heading">헤어 마스카라 컬렉션</h2>
+      <p class="product-sub">단 한 번의 브러시로 완성되는 자연스러운 볼륨과 윤기</p>
+    </div>
+
+    <div class="product-gallery">
+      <!-- 제품 카드 1 -->
+      <div class="product-card reveal" id="card1">
+        <div class="card-img-wrap">
+          <img src="images/basic/basic-02.jpg" alt="GYEOL 헤어 마스카라 No.1" />
+          <div class="card-badge">Best</div>
+        </div>
+        <div class="card-info">
+          <h3>GYEOL Hair Mascara</h3>
+          <p class="card-color">No. 01 — 딥 블랙</p>
+          <p class="card-desc">진한 발색과 자연스러운 볼륨감을 동시에</p>
+          <span class="card-price">₩28,000</span>
+        </div>
+      </div>
+
+      <!-- 제품 카드 2 -->
+      <div class="product-card reveal" id="card2">
+        <div class="card-img-wrap">
+          <img src="images/basic/basic-03.jpg" alt="GYEOL 헤어 마스카라 No.2" />
+          <div class="card-badge new">New</div>
+        </div>
+        <div class="card-info">
+          <h3>GYEOL Hair Mascara</h3>
+          <p class="card-color">No. 02 — 브라운 에스프레소</p>
+          <p class="card-desc">부드럽고 따뜻한 브라운으로 자연스러운 연출</p>
+          <span class="card-price">₩28,000</span>
+        </div>
+      </div>
+
+      <!-- 제품 카드 3 -->
+      <div class="product-card reveal" id="card3">
+        <div class="card-img-wrap">
+          <img src="images/basic/basic-05.jpg" alt="GYEOL 헤어 마스카라 No.3" />
+        </div>
+        <div class="card-info">
+          <h3>GYEOL Hair Mascara</h3>
+          <p class="card-color">No. 03 — 소프트 그레이</p>
+          <p class="card-desc">세련된 그레이 톤으로 도시적인 감성 표현</p>
+          <span class="card-price">₩28,000</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DETAIL 섹션 (background 이미지 활용) ===== -->
+  <section class="detail" id="detail">
+
+    <!-- 디테일 블록 1 -->
+    <div class="detail-block" id="detailBlock1">
+      <div class="detail-bg" style="background-image: url('images/background/bg-01.jpg')"></div>
+      <div class="detail-overlay"></div>
+      <div class="detail-content reveal">
+        <p class="section-label light">Detail 01</p>
+        <h2>지속력 있는<br>컬러 고정</h2>
+        <p>땀, 습기에도 흔들리지 않는 고정력.<br>하루 종일 선명하고 또렷한 결을 유지합니다.</p>
+      </div>
+    </div>
+
+    <!-- 디테일 블록 2 -->
+    <div class="detail-block reverse" id="detailBlock2">
+      <div class="detail-bg" style="background-image: url('images/background/bg-02.jpg')"></div>
+      <div class="detail-overlay"></div>
+      <div class="detail-content reveal">
+        <p class="section-label light">Detail 02</p>
+        <h2>풍성한<br>볼륨 브러시</h2>
+        <p>정밀하게 설계된 브러시가<br>한 올 한 올을 섬세하게 감싸줍니다.</p>
+      </div>
+    </div>
+
+    <!-- 디테일 블록 3 -->
+    <div class="detail-block" id="detailBlock3">
+      <div class="detail-bg" style="background-image: url('images/background/bg-03.jpg')"></div>
+      <div class="detail-overlay"></div>
+      <div class="detail-content reveal">
+        <p class="section-label light">Detail 03</p>
+        <h2>건강한<br>두피 성분</h2>
+        <p>모발 손상 없이 영양을 공급하는<br>식물성 성분으로 채워진 포뮬러.</p>
+      </div>
+    </div>
+
+    <!-- 디테일 블록 4 -->
+    <div class="detail-block reverse" id="detailBlock4">
+      <div class="detail-bg" style="background-image: url('images/background/bg-04.jpg')"></div>
+      <div class="detail-overlay"></div>
+      <div class="detail-content reveal">
+        <p class="section-label light">Detail 04</p>
+        <h2>손쉬운<br>워시 오프</h2>
+        <p>물로 가볍게 씻어내는 클렌징.<br>모발에 잔여물 없이 깔끔하게 지워집니다.</p>
+      </div>
+    </div>
+
+    <!-- 디테일 블록 5 -->
+    <div class="detail-block" id="detailBlock5">
+      <div class="detail-bg" style="background-image: url('images/background/bg-05.jpg')"></div>
+      <div class="detail-overlay"></div>
+      <div class="detail-content reveal">
+        <p class="section-label light">Detail 05</p>
+        <h2>비건 인증<br>친환경 패키지</h2>
+        <p>동물 실험을 하지 않는 비건 성분과<br>재활용 가능한 친환경 패키지.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ===== HOW TO USE 섹션 ===== -->
+  <section class="howto" id="howto">
+    <div class="howto-inner">
+      <p class="section-label reveal">How to Use</p>
+      <h2 class="howto-heading reveal">사용 방법</h2>
+      <div class="steps">
+        <div class="step reveal" id="step1">
+          <div class="step-num">01</div>
+          <h3>준비</h3>
+          <p>사용 전 모발을 드라이하여 수분을 제거하세요.</p>
+        </div>
+        <div class="step-divider reveal"></div>
+        <div class="step reveal" id="step2">
+          <div class="step-num">02</div>
+          <h3>도포</h3>
+          <p>브러시를 뿌리부터 모발 끝까지 지그재그로 발라주세요.</p>
+        </div>
+        <div class="step-divider reveal"></div>
+        <div class="step reveal" id="step3">
+          <div class="step-num">03</div>
+          <h3>마무리</h3>
+          <p>30초간 자연 건조 후 원하는 스타일로 마무리하세요.</p>
+        </div>
+        <div class="step-divider reveal"></div>
+        <div class="step reveal" id="step4">
+          <div class="step-num">04</div>
+          <h3>제거</h3>
+          <p>미온수로 가볍게 헹구어 마스카라를 제거하세요.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STORY / CONTEXT 섹션 ===== -->
+  <section class="story" id="story">
+    <div class="story-context-wrap">
+      <div class="story-text reveal">
+        <p class="section-label">Story</p>
+        <h2 class="story-heading">당신의 결,<br>그대로 아름답습니다.</h2>
+        <p class="story-desc">
+          아침마다 거울 앞에서 고민하던 당신에게.<br>
+          GYEOL 헤어 마스카라는 단 한 번의 터치로<br>
+          오늘 하루를 더 빛나게 만들어 드립니다.<br><br>
+          새치 커버, 볼륨 업, 윤기 케어까지 —<br>
+          하나로 완성되는 당신만의 결.
+        </p>
+        <a href="#product" class="story-btn" id="storyBtn">지금 만나보기</a>
+      </div>
+      <div class="story-img-wrap reveal">
+        <img src="images/context/context-01.jpg" alt="GYEOL 헤어 마스카라 컨텍스트 이미지" class="story-context-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 푸터 ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="footer-logo">GYEOL</p>
+        <p class="footer-tagline">결 — Hair Mascara</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">개인정보처리방침</a>
+        <a href="#">이용약관</a>
+        <a href="#">고객센터</a>
+        <a href="#">SNS</a>
+      </div>
+      <p class="footer-copy">© 2024 GYEOL. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
